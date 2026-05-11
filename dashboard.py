@@ -56,6 +56,14 @@ activity_f = activity[activity["org_name"].isin(selected_orgs) & activity["year_
 org_f      = org[org["org_name"].isin(selected_orgs)]
 
 # ── Title ──────────────────────────────────────────────────────────────────────
+st.markdown("""
+<style>
+    .stApp { background-color: #FFFFFF; }
+    [data-testid="stSidebar"] { background-color: #F0F2F6; }
+    body, .stMarkdown, p, h1, h2, h3 { color: #1A1A1A; }
+</style>
+""", unsafe_allow_html=True)
+
 st.title("RoloScan Dashboard")
 st.caption("Use the sidebar to filter by organisation or month across all tabs.")
 

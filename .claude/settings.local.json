@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(brew list *)",
+      "Bash(/opt/homebrew/bin/python3.12 -m pip install pandas numpy)",
+      "Bash(/opt/homebrew/bin/python3.12 -m venv venv)",
+      "Bash(venv/bin/pip install *)",
+      "Bash(venv/bin/python Test_dash.py)"
+    ]
+  }
+}

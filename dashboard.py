@@ -100,8 +100,7 @@ with tab1:
                 "| Meetings scheduled | × 5 |\n"
                 "| Leads added | × 4 |\n"
                 "| Calls made | × 3 |\n"
-                "| Emails sent | × 2 |\n"
-                "| Leads contacted | × 2 |\n"
+                "| Emails sent | × 1 |\n"
                 "| Tasks completed | × 1 |\n\n"
                 "The chart shows the **average** of each user's daily score within the org. "
                 "Orgs with only 1–2 users can look unusually high or low — always compare alongside the Users column."
@@ -337,8 +336,8 @@ with tab4:
     st.header("User Productivity")
 
     st.info(
-        "**Engagement Score** = (Calls × 3) + (Meetings × 5) + (Emails × 2) + "
-        "(Leads Contacted × 2) + (Tasks Completed × 1) + (Leads Added × 4).  "
+        "**Engagement Score** = (Calls × 3) + (Meetings × 5) + (Emails × 1) + "
+        "(Tasks Completed × 1) + (Leads Added × 4).  "
         "It is a weighted daily productivity score per user — meetings get the highest "
         "weight because they represent the most effort.",
         icon="ℹ️",
